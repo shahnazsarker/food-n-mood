@@ -1,0 +1,33 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 5%;
+}
+h1{ text-align: left;
+    font-size: 50px;
+    line-height: 20%;
+}
+.header-color{
+    color: rgb(238, 13, 81);
+}
+.header-color:hover{
+    color: red;
+}
+.flexible-container{
+    display:flex;
+}
+.flexible-container img{
+    width: 80%;
+    padding-left: 10%;
+} 
+.link-buttons{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-color:orangered;
+    background-image: linear-gradient( orange, rgb(255, 0, 140));
+    padding: 10px 40px;
+}
+.link-buttons:hover{
+    background-image: linear-gradient(blue, cyan)
+}
