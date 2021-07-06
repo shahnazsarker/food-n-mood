@@ -5,28 +5,27 @@ body{
 }
 #navigation-container{
     display: flex;
-    width:100%;
+    width:100%; 
     padding-bottom: 20px;
+    padding-top: 20px;
     position: fixed;
     background: rgb(206, 129, 146);
-    top: 0;
+    box-shadow: 10px 10px 20px grey;
+   
 }
-
 .navigation-bar{
     width: 50%;
-    height: 25%;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 .nav-buttons{
     text-decoration: none;
-    
     color: white;
-    font-weight: 300;
+    font-weight: 500;
     margin: 0 30PX 10PX 40PX;
     padding: 25px;
 }
 .nav-buttons:hover{
-    color: tomato;
+    color: rgb(255, 191, 71);
 }
 h1{ text-align: left;
     font-size: 50px;
