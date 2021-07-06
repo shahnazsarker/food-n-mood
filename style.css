@@ -1,13 +1,17 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
-
+    font-size: 15px;
 }
 h1{ text-align: left;
     font-size: 50px;
-    line-height: 20%;
+    line-height: 20px;
+    color: rgb(73, 55, 59);  
 }
-.header-color{
+h2{
+    font-size: 30px;
+    color: rgb(73, 55, 59);
+}.header-color{
     color: rgb(238, 13, 81);
 }
 .header-color:hover{
@@ -40,3 +44,53 @@ h1{ text-align: left;
 .background-set{
     background-image: url(bg2.png);
 }
+#offer-section{
+    text-align: center;
+    padding: 10px  300px;
+
+}
+.card-container{
+    display:flex;
+    margin: 10px;
+    padding: 20px;
+   
+}
+.card-box{
+    text-align: center;
+    width: 25%;
+    padding: 25px 15px;
+    box-shadow: 10px 10px 30px grey;
+    margin-left: 40px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 45px;
+}
+.card-box img{
+    border-radius: 55px;
+    width: 100%;
+}
+#subscriber-container{
+    display: flex;
+    margin : 40px 100px;
+
+    box-shadow: 20px 20px 30px grey;
+    border-radius: 10px;
+}
+.subscriber-bar{
+    width: 35%;
+    margin: 5px;
+    padding: 20PX 0PX 20PX 100PX ;
+
+}
+#foot-style{
+    text-align: center;
+    background-color: #040425;
+    color: oldlace;
+    font-weight: lighter;
+    padding:30px ;
+    
+}
+.alignment{
+    text-align: justify;
+}
+    
