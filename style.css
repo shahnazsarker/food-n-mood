@@ -117,4 +117,13 @@ h2{
 .alignment{
     text-align: justify;
 }
-    
+.search-bar{
+    width:50%;
+    padding-right: 20px;
+
+    margin-left: 5%;
+}
+#searchbar-bg{
+    background-image: url(resizedimage.jpg);
+    background-repeat:no-repeat;
+}
