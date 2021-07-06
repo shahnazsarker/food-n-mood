@@ -3,6 +3,31 @@ body{
     margin: 0;
     font-size: 15px;
 }
+#navigation-container{
+    display: flex;
+    width:100%;
+    padding-bottom: 20px;
+    position: fixed;
+    background: rgb(206, 129, 146);
+    top: 0;
+}
+
+.navigation-bar{
+    width: 50%;
+    height: 25%;
+    padding-left: 10%;
+}
+.nav-buttons{
+    text-decoration: none;
+    
+    color: white;
+    font-weight: 300;
+    margin: 0 30PX 10PX 40PX;
+    padding: 25px;
+}
+.nav-buttons:hover{
+    color: tomato;
+}
 h1{ text-align: left;
     font-size: 50px;
     line-height: 20px;
